@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('CodeDownload') {
       steps {
-        git(url: 'https://github.com/salvadorcobregon/testPipeline', branch: 'master')
+        git(url: 'https://github.com/salvadorcobregon/testPipeline', branch: 'master', credentialsId: '8e2c8551-b0b5-4180-8c2a-a0194c8b593d')
       }
     }
     stage('Prepare the Environment') {
