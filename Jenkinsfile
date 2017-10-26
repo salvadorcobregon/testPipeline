@@ -39,6 +39,6 @@ pipeline {
   environment {
     KEYS = '/opt/analyzer/bin/oracle.key'
     WORKSPACE = '/var/lib/jenkins/workspace/AnalysisPOC'
-    REPORTFOLDER = ''
+    REPORTFOLDER = '/opt/code-scan/reports'
   }
 }
